@@ -1,17 +1,20 @@
 {
   "name": "txwrapper-deeper",
-  "version": "1.5.1",
-  "author": "",
+  "version": "1.0.0",
+  "author": "joey.xie@deeper.network",
   "description": "Helper functions for deeper-chain offline transaction generation.",
   "files": [
     "lib"
   ],
   "license": "Apache-2.0",
   "main": "lib/index.js",
-  "private": true,
-  "repository": "<link to the github repo this package lives in>",
-  "bugs": "<link to the github repo this package lives in>/issues",
-  "homepage": "<link to the github repo this package lives in>#readme",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/deeper-chain/txwrapper",
+  "bugs": "https://github.com/deeper-chain/txwrapper/issues",
+  "homepage": "https://github.com/deeper-chain/txwrapper#readme",
   "engine": {
     "node": ">=14"
   },
@@ -19,9 +22,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@substrate/txwrapper-core": "^1.5.1",
-    "@substrate/txwrapper-registry": "^1.5.1",
-    "@substrate/txwrapper-substrate": "^1.5.1"
+    "@substrate/txwrapper-core": "^1.5.1"
   },
   "devDependencies": {
     "ts-node": "9.1.1",
