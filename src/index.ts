@@ -131,6 +131,8 @@ export const methods = {
   credit: deeperMethods.credit,
   deeperNode: deeperMethods.deeperNode,
   balances: deeperMethods.balances,
+  micropayment: deeperMethods.micropayment,
+  creditAccumulation: deeperMethods.creditAccumulation,
 }
 
 export * from '@substrate/txwrapper-core';
