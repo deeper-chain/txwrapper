@@ -6,13 +6,14 @@ import {
     UnsignedTransaction,
 } from '@substrate/txwrapper-core';
 
-
-export interface ImOnlineArgs extends Args {
+export interface TransferArgs extends Args {
+    dest: string;
+    value: number;
 }
 
 // Define the method
-export function imOnline(
-    args: ImOnlineArgs,
+export function transfer(
+    args: TransferArgs,
     info: BaseTxInfo,
     options: OptionsWithMeta
 ): UnsignedTransaction {
@@ -20,8 +21,8 @@ export function imOnline(
         {
             method: {
                 args,
-                name: 'imOnline',
-                pallet: 'deeperNode',
+                name: 'transfer',
+                pallet: 'balances',
             },
             ...info,
         },

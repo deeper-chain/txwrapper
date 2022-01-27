@@ -130,6 +130,7 @@ import * as deeperMethods from './methods';
 export const methods = {
   credit: deeperMethods.credit,
   deeperNode: deeperMethods.deeperNode,
+  balances: deeperMethods.balances,
 }
 
 export * from '@substrate/txwrapper-core';

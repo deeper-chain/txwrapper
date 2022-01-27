@@ -30,10 +30,6 @@ type CreditData = {
 
 export interface AddOrUpdateCreditDataArgs extends Args {
     /**
-     * operate user, usually sudo
-     */
-    origin: string;
-    /**
      * account to receive credit data.
      */
     account_id: string;
