@@ -1,5 +1,5 @@
 {
-  "name": "txwrapper-deeper",
+  "name": "@deeper-chain/txwrapper",
   "version": "1.0.0",
   "author": "joey.xie@deeper.network",
   "description": "Helper functions for deeper-chain offline transaction generation.",
@@ -12,9 +12,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "https://github.com/deeper-chain/txwrapper-deeper",
-  "bugs": "https://github.com/deeper-chain/txwrapper-deeper/issues",
-  "homepage": "https://github.com/deeper-chain/txwrapper-deeper#readme",
+  "repository": "https://github.com/deeper-chain/txwrapper",
+  "bugs": "https://github.com/deeper-chain/txwrapper/issues",
+  "homepage": "https://github.com/deeper-chain/txwrapper#readme",
   "engine": {
     "node": ">=14"
   },
