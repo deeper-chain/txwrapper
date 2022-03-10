@@ -8,7 +8,7 @@ import {
 
 export interface TransferArgs extends Args {
     dest: string;
-    value: number;
+    value: string;
 }
 
 // Define the method
